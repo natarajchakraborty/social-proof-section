@@ -6,8 +6,10 @@
 
 ## Solved ##
 
-** Live URL **
+**Live URL**
+
 [Live Github Pages](https://natarajchakraborty.github.io/social-proof-section/)
+
 [Github Repo](https://github.com/natarajchakraborty/social-proof-section)
 
 Thanks for checking out this front-end coding challenge.
