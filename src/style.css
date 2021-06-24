@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @variants responsive {
+        .lgBodyBackground {
+            background-image:url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+            background-position: left 0px top 0px, bottom -100vh right 0px;
+            background-repeat: no-repeat, no-repeat;
+            background-origin: content-box, content-box;
+        }
+
+        .smBodyBackground {
+            background-image:url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+            background-position: left 0px top 0px, bottom -100vh right 0px;
+            background-repeat: no-repeat, no-repeat;
+            background-origin: content-box, content-box;
+        }
+    }
+}

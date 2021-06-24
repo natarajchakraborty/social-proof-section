@@ -1,61 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | Social proof section</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
-  </head>
-  <body>
-    10,000+ of our users love our products.
+  <title>Frontend Mentor | Social proof section</title>
 
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="smBodyBackground 1xl:1xlBodyBackground leading-loose tracking-normal font-body text-base15 text-veryDarkMagenta">
+  <div class="1xl:min-h-screen flex flex-col justify-center items-center 1xl:px-44">
+    <div class="flex flex-col 1xl:flex-row justify-center items-center 1xl:px-10">
+      <div class="flex flex-col justify-center items-center pt-24 px-1 1xl:w-3/6 1xl:pr-60 1xl:pt-0 1xl:px-0">
+        <h1 class="text-4xl font-bold text-center 1xl:text-left">10,000+ of our users love our products.</h1>
+
+        <p class="pt-6 text-center 1xl:text-left">We only provide great products combined with excellent customer service.
+          See what our satisfied customers are saying about our services.</p>
+      </div>
+      <div class="flex flex-col items-center py-5 w-full 1xl:w-3/6 1xl:ml-16 1xl:py-0">
+        <div class="flex flex-col 1xl:flex-row justify-center items-center 1xl:self-start bg-lightGrayishMagenta py-3 px-10 rounded w-full 1xl:w-auto  mx-1 1xl:mx-0">
+          <div class="flex flex-row justify-center items-center 1xl:mr-6">
+              <img src="images/icon-star.svg" alt="star">
+              <img src="images/icon-star.svg" alt="star">
+              <img src="images/icon-star.svg" alt="star">
+              <img src="images/icon-star.svg" alt="star">
+              <img src="images/icon-star.svg" alt="star">
+          </div>
+          <div class="font-bold text-sm  mt-4  1xl:mt-0">Rated 5 Stars in Reviews</div>
+        </div>
+        <div class="flex flex-col 1xl:flex-row justify-center items-center 1xl:self-center bg-lightGrayishMagenta py-3 px-10 rounded mt-5  w-full 1xl:w-auto  mx-1 1xl:mx-0">
+            <div class="flex flex-row justify-center items-center mr-6">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+            </div>
+            <div class="font-bold text-sm   mt-4  1xl:mt-0">Rated 5 Stars in Report Guru</div>
+        </div>
+        <div class="flex flex-col 1xl:flex-row justify-center items-center 1xl:self-end bg-lightGrayishMagenta py-3 px-10 rounded mt-5  w-full 1xl:w-auto  mx-1 1xl:mx-0">
+            <div class="flex flex-row justify-center items-center mr-6">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+            </div>
+            <div class="font-bold text-sm  mt-4  1xl:mt-0">Rated 5 Stars in BestTech</div>
+        </div>
+      </div>
     </div>
-  </body>
+
+
+    <div class="flex flex-col 1xl:flex-row mt-8 1xl:mt-28 1xl:h-72 text-sm text-lightGrayishMagenta mx-1 1xl:mx-0">
+      <div class="flex flex-col p-5 1xl:self-start rounded bg-veryDarkMagenta text-themeWhite ml-0 1xl:ml-10 p-8 h-64 1xl:h-auto">
+        <div class="flex flex-row items-center mb-6">
+            <img src="images/image-colton.jpg" alt="star" class="w-10 rounded-full mr-6">
+            <div class="flex flex-col justify-center ">
+                <h2>Colton Smith </h2>
+                <h3 class="font-bold text-softPink">Verified Buyer</h3>
+            </div>
+        </div>
+
+        <p>"We needed the same printed design as the one we had ordered a week prior.
+          Not only did they find the original order, but we also received it in time.
+          Excellent!"</p>
+      </div>
+
+      <div class="flex flex-col p-5 1xl:self-center rounded bg-veryDarkMagenta text-themeWhite ml-0 1xl:ml-10 p-8 mt-5 1xl:mt-0  h-64 1xl:h-auto">
+          <div class="flex flex-row items-center mb-6">
+              <img src="images/image-irene.jpg" alt="star" class="w-10 rounded-full mr-6">
+              <div class="flex flex-col justify-center ">
+                  <h2>Irene Roberts</h2>
+                  <h3 class="font-bold text-softPink">Verified Buyer</h3>
+              </div>
+          </div>
+        <p>"Customer service is always excellent and very quick turn around. Completely
+          delighted with the simplicity of the purchase and the speed of delivery."</p>
+      </div>
+
+      <div class="flex flex-col p-5 1xl:self-end rounded bg-veryDarkMagenta text-themeWhite ml-0 1xl:ml-10 p-8  mt-5 1xl:mt-0  h-64 1xl:h-auto">
+          <div class="flex flex-row items-center mb-6">
+              <img src="images/image-anne.jpg" alt="star" class="w-10 rounded-full mr-6">
+              <div class="flex flex-col justify-center ">
+                  <h2>Anne Wallace</h2>
+                  <h3 class="font-bold text-softPink">Verified Buyer</h3>
+              </div>
+          </div>
+        <p>"Put an order with this company and can only praise them for the very high
+          standard. Will definitely use them again and recommend them to everyone!"</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your
+      Name Here</a>.
+  </div>
+</body>
+
 </html>
