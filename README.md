@@ -6,6 +6,8 @@
 
 [Demo Page URL](https://natarajchakraborty.github.io/social-proof-section/)
 
+[Uses TailwindCSS](https://github.com/tailwindlabs/tailwindcss)
+
 ## Design preview! 👋
 
 **Desktop Preview@1440px**
